@@ -1,0 +1,89 @@
+#app{
+  font: 14px 'SansSerif','Helvetica Neue','Helvetica','Arial';
+  color:darkblue;
+  min-width: 550px;
+  min-height: 850px;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+a.active{
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  visibility: hidden;
+
+}
+
+thead{
+  color: cadetblue;
+  font-size: 17px;
+  background-color: snow;
+  border-bottom: 3px solid cornflowerblue;
+
+}
+
+h3{
+  text-align: center;
+  margin-right: 30%;
+  margin-left: 30%;
+  font-size: 30px;
+  text-decoration: underline;
+  background-color:white;
+  padding: 10px;
+  font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+}
+
+form{
+  padding: 10px;
+  margin-right: 30%;
+  margin-left: 30%;
+  border: 2px solid lightyellow;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+div.contain{
+  padding: 10px;
+  background-color: white;
+  border-radius: 7px;
+}
+
+table{
+  border: 3px solid lightgoldenrodyellow;
+  border-radius: 10px;
+  border-spacing: 20px;
+  padding: 20px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50px;
+  margin-right: 10px;
+  margin-right: 10px;
+}
+
+
+tr:nth-child(even) {
+  background-color: snow;
+}
+
+tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+
+td.editChanger{
+  border-bottom: 3px solid lightsteelblue;
+  font-family: Arial;
+}
+td{
+  border-bottom: 3px solid antiquewhite;
+}
+
+nav{
+  margin-left:5px;
+  width: 90px;
+  text-align: center;
+  border-radius: 5px;
+  vertical-align: center;
+  padding-top:15px;
+  font-size: 20px;
+  padding-left:4px;
+}
